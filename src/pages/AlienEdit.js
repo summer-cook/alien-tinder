@@ -7,9 +7,10 @@ import { Redirect } from 'react-router-dom'
     super(props)
     this.state = {
       form: {
-        name: "",
-        distance: "",
-        planet: ""
+        name: this.props.alien.name,
+        distance: this.props.alien.distance,
+        planet: this.props.alien.planet,
+        img: this.props.alien.img
       },
     success: false
     }
