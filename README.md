@@ -3,7 +3,7 @@
 <br/>
 <b>An out-of-this-world dating app</b>
 
-This repo is the React frontend.
+This repo is the React frontend.<br/>
 The backend lives here: https://github.com/summer-cook/cat-tinder-backend-alan-summer
 
 Built by Summer Cook & Alan Hausinger during LEARN fullstack bootcamp: https://www.learnacademy.org/
