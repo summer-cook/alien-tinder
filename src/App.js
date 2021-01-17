@@ -129,6 +129,7 @@ render()  {
         /> 
       } 
     />
+    //delete path
     <Route 
       exact path={"/alienshow/:id"}
       render={ (props) => {
@@ -142,6 +143,7 @@ render()  {
       )
     }}
   />
+  //new path
     <Route
       path="/aliennew"
       render={ (props) => 
@@ -150,6 +152,8 @@ render()  {
         { this.createNewAlien }
         /> }
     />
+    
+    //edit path
 
     <Route
       exact path={"/alienedit/:id"}
